@@ -4,8 +4,8 @@
 #   brew install --cask opencast
 # Apple Silicon only. First launch: right-click → Open (not notarized).
 cask "opencast" do
-  version "0.2.6"
-  sha256 "e1d6ae9f0681f02925415149cb0246e9a98a0f82e48adc59a4cf7f022fb2a973"
+  version "0.2.7"
+  sha256 "ff55b92664e326607efa0eaf320f95970677c0a93a66c88a217f41a7aaa735e8"
 
   url "https://github.com/a1ex-var1amov/opencast/releases/download/v#{version}/OpenCast-#{version}.dmg"
   name "OpenCast"
