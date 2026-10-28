@@ -2,10 +2,10 @@
 #   brew tap a1ex-var1amov/tap
 #   brew trust a1ex-var1amov/tap
 #   brew install --cask opencast
-# Apple Silicon only for v0.2.0. First launch: right-click → Open (not notarized).
+# Apple Silicon only. First launch: right-click → Open (not notarized).
 cask "opencast" do
-  version "0.2.0"
-  sha256 "42b5175d3ed7169d6d49b450c49e317f62bb9028d9b04167a3a13794395a5029"
+  version "0.2.1"
+  sha256 "ed615f5779ef66057130bcc6be88d0fc1d972c313ee5a5e55bb0996318242b29"
 
   url "https://github.com/a1ex-var1amov/opencast/releases/download/v#{version}/OpenCast-#{version}.dmg"
   name "OpenCast"
