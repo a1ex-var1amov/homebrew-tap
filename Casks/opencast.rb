@@ -5,7 +5,7 @@
 # Apple Silicon only. First launch: right-click → Open (not notarized).
 cask "opencast" do
   version "0.2.8"
-  sha256 "b03d57198c33c143b06531a74dbf5d82465fec537b7d5ee8b8bc5f37b9c584d1"
+  sha256 "3815ee04c5e08261dced83cab2fb2fe121a1612bbc1b86e23e192313348b9a7a"
 
   url "https://github.com/a1ex-var1amov/opencast/releases/download/v#{version}/OpenCast-#{version}.dmg"
   name "OpenCast"
