@@ -3,8 +3,8 @@
 #   brew trust a1ex-var1amov/tap
 #   brew install --cask opencast
 cask "opencast" do
-  version "0.2.9"
-  sha256 "f67c5cee6d6c3a881ab1928d1b441c383a12e58e05554de786e3c9fcee1abcf7"
+  version "0.2.10"
+  sha256 "bd805d66032764531015f24478f882c78a36289fccb2bd6a1e574b090188b393"
 
   url "https://github.com/a1ex-var1amov/opencast/releases/download/v#{version}/OpenCast-#{version}.dmg"
   name "OpenCast"
