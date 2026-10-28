@@ -1,4 +1,7 @@
-# Install: brew tap a1ex-var1amov/tap && brew install --cask opencast
+# Install:
+#   brew tap a1ex-var1amov/tap
+#   brew trust a1ex-var1amov/tap
+#   brew install --cask opencast
 # Apple Silicon only for v0.2.0. First launch: right-click → Open (not notarized).
 cask "opencast" do
   version "0.2.0"
@@ -9,7 +12,7 @@ cask "opencast" do
   desc "Open-source keyboard launcher with bring-your-own AI"
   homepage "https://github.com/a1ex-var1amov/opencast"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "OpenCast.app"
