@@ -1,6 +1,6 @@
 cask "opencast" do
-  version "0.2.11"
-  sha256 "b8ee787b6e0fa52f50d0ce6fd23033d7b253f8ce3a36923960dc1b3035278288"
+  version "0.2.12"
+  sha256 "51ffb74797843cc9e453de6843c8450b355bbe9ac804727d65b3af9ff18ab8a4"
 
   url "https://github.com/a1ex-var1amov/opencast/releases/download/v#{version}/OpenCast-#{version}.dmg"
   name "OpenCast"
