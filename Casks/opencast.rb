@@ -8,7 +8,6 @@ cask "opencast" do
   homepage "https://github.com/a1ex-var1amov/opencast"
 
   depends_on macos: :sonoma
-  depends_on arch: :arm64
 
   app "OpenCast.app"
 
